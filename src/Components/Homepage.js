@@ -32,14 +32,14 @@ function Homepage() {
 
   return (
     <div className="">
-      <header className="flex mt-5 space-x-3 md:ml-10">
+      <header className="flex ml-5 mr-4 mt-5 space-x-3 md:ml-10">
         <div className="">
           <h1 className="">
             {rendered === "popular"
-              ? "Popular Anime"
+              ? "Popular"
               : rendered === "airing"
-              ? "Airing Anime"
-              : "Upcoming Anime"}
+              ? "Airing"
+              : "Upcoming"}
           </h1>
         </div>
         <div className="">
